@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductTrader.Logic", "ProductTrader.Logic\ProductTrader.Logic.csproj", "{5C763ABB-8393-448B-95D7-B763F447696C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductTrader.ConApp", "ProductTrader.ConApp\ProductTrader.ConApp.csproj", "{127F4EC4-EA7E-4B5D-B006-427AF8CA0238}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C763ABB-8393-448B-95D7-B763F447696C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C763ABB-8393-448B-95D7-B763F447696C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C763ABB-8393-448B-95D7-B763F447696C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C763ABB-8393-448B-95D7-B763F447696C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127F4EC4-EA7E-4B5D-B006-427AF8CA0238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127F4EC4-EA7E-4B5D-B006-427AF8CA0238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127F4EC4-EA7E-4B5D-B006-427AF8CA0238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127F4EC4-EA7E-4B5D-B006-427AF8CA0238}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4805C1AE-8C01-4FDC-857E-B82D68C6A332}
+	EndGlobalSection
+EndGlobal
