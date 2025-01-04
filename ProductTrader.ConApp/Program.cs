@@ -50,7 +50,7 @@ namespace ProductTrader.ConApp
                 ConsoleColor saveColor = Console.ForegroundColor;
 
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"{"Product",-20} {"CussentValue",14} {"MinValue",14} {"MaxValue",14}");
+                Console.WriteLine($"{"Product",-20} {"CurrentValue",14} {"MinValue",14} {"MaxValue",14}");
                 Console.ForegroundColor = saveColor;
                 Console.WriteLine($"{product.Name,-20} {product.Value,10:f} EUR {product.MinValue,10:f} EUR {product.MaxValue,10:f} EUR");
                 Console.WriteLine();
