@@ -18,9 +18,9 @@ namespace ProductTrader.ConApp
             product.Changed += PrintHeader!;
             product.Changed += PrintProduct!;
             product.Changed += PrintTraderHeader!;
-            product.Changed += trader1.UpdateProduct!;
-            product.Changed += trader2.UpdateProduct!;
-            product.Changed += trader3.UpdateProduct!;
+            product.Changed += trader1.Update!;
+            product.Changed += trader2.Update!;
+            product.Changed += trader3.Update!;
             product.Start();
             Console.ReadLine();
             product.Stop();

@@ -96,11 +96,11 @@ public interface ITrader
     double RetailValue { get; }
 
     /// <summary>
-    /// Registration method for the share.
+    /// Registration method for the product.
     /// </summary>
-    /// <param name="sender">The share.</param>
-    /// <param name="eventArgs">Not in use.</param>
-    void UpdateProduct(object sender, EventArgs eventArgs);
+    /// <param name="sender">The product.</param>
+    /// <param name="eventArgs">The default is EventArgs.Empty.</param>
+    void Update(object sender, EventArgs eventArgs);
 }
 ```
 
@@ -154,9 +154,9 @@ static void Main(/*string[] args*/)
     product.Changed += PrintHeader!;
     product.Changed += PrintProduct!;
     product.Changed += PrintTraderHeader!;
-    product.Changed += trader1.UpdateProduct!;
-    product.Changed += trader2.UpdateProduct!;
-    product.Changed += trader3.UpdateProduct!;
+    product.Changed += trader1.Update!;
+    product.Changed += trader2.Update!;
+    product.Changed += trader3.Update!;
     product.Start();
     Console.ReadLine();
     product.Stop();
