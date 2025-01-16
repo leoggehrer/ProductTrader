@@ -52,7 +52,7 @@
         /// </summary>
         /// <param name="sender">The source of the event.</param>
         /// <param name="e">The event arguments.</param>
-        public void UpdateProduct(object sender, EventArgs e)
+        public void Update(object sender, EventArgs e)
         {
             if (e is ProductEventArgs product)
             {
