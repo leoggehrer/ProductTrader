@@ -63,7 +63,7 @@
                     _buyValue = 0.0;
                     CurrentProfit = PastProfit;
                 }
-                else if (_hasBought == false && product.Value >= PurchaseValue)
+                else if (_hasBought == false && product.Value >= PurchaseValue && product.Value <= RetailValue)
                 {
                     _hasBought = true;
                     _buyValue = product.Value;
